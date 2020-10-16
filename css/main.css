@@ -1,0 +1,38 @@
+body {
+    margin-top: 40px;
+}
+.row {
+    margin-bottom: 20px;
+}
+
+header {
+    background: #bd2131;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner {
+    background: #faebd7;
+    
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.servicios .col {
+    background: #deb887;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sobre-nosotros {
+    background: #fff8dc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+aside {
+    background: #f0f8ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    background: #e9ecef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
