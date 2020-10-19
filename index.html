@@ -61,20 +61,14 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis impedit neque,</p>
             </div>
         </section>
-        <section class="row servicios">
+        <!-- <section class="row servicios align-items-md-end align-items-lg-center"> -->
+        <!-- <section class="row servicios justify-content-center justify-content-lg-around justify-content-xl-between"> -->
+            <section class="row servicios ">
             <div class="servicio col-sm-6 col-md-4 col-lg-3">
                 <h3>Titulo servicio</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis impedit neque,</p>
             </div>
-            <div class="servicio col-sm-6 col-md-4 col-lg-3">
-                <h3>Titulo servicio</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis impedit neque,</p>
-            </div>
-            <div class="servicio col-sm-6 col-md-4 col-lg-3">
-                <h3>Titulo servicio</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis impedit neque,</p>
-            </div>
-            <div class="servicio col-sm-6 col-md-12 col-lg-3">
+            <div class="servicio col-sm-6 col-md-4 col-lg-3 offset-sm-1 offset-lg-5">
                 <h3>Titulo servicio</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat corporis impedit neque,</p>
             </div>
@@ -123,7 +117,25 @@
 </body>
 <!-- 
     *si col-md u otro tamaños no tiene numero(col-md-6), bootstrap lo hace proporcional a la cantidad de columnas que hay en el contenedor 
-    *col-auto depende de algun col 
+    *col-auto depende de algun col
+    para un grupo
+    align-items
+                -center
+                -start
+                -end
+    para un determinado tamaño antes de (center, start, end) agregar el tamaño -lg, -md
+    ejemplo: align-items-lg-end
+    para uno solo
+    align-self
+                -center
+    para
+    justify-content
+                    -end
+                    -center
+                    -around(distribuya )
+                    beetween
+    offset columnas a la izquierda
+    offset-sm-1 offset-lg-5
 -->
 
 </html>
