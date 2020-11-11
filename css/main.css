@@ -4,7 +4,7 @@ body {
 .row {
     margin-bottom: 20px;
 }
-
+/* 
 header {
     background: #bd2131;
     padding-top: 20px;
@@ -35,4 +35,8 @@ footer {
     background: #e9ecef;
     padding-top: 20px;
     padding-bottom: 20px;
+} */
+
+p {
+    margin-bottom: 20px;
 }
