@@ -40,3 +40,16 @@ footer {
 p {
     margin-bottom: 20px;
 }
+
+.padre {
+    background: blue;
+    padding: 20px;
+}
+
+.hijo {
+    padding: 50px;
+    width: 200px;
+    background: #000;
+    color: #fff;
+    margin: 20px;
+}
