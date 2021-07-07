@@ -900,47 +900,71 @@
         </a>
       </div> -->
 <!-- Fin Carousel -->
-<p>
-  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#contentId" aria-expanded="false"
-      aria-controls="contentId">
-    Show
-  </button>
-</p>
-<div class="collapse" id="contentId">
-  
-</div>
-<h1>Collapse</h1>
+<!-- Collapse -->
+    <!-- <a class="btn btn-primary" data-toggle="collapse" href="#contentId" role="button">
+      Mostrar/ocultar
+    </a>
+    <button data-toggle="collapse" class="btn btn-primary" role="button" data-target="#contentId">Mostrar/ocultar</button>
+    <button data-toggle="collapse" class="btn btn-primary" role="button" data-target=".variousElements">Mostrar/ocultar</button>
+    <hr>
+    <div class="collapse variousElements" id="contentId">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque dolores eveniet laboriosam, perspiciatis nobis cum iusto aut, ut doloribus in placeat adipisci, illum optio maiores consequuntur. Nostrum, quis repudiandae.</p>
+        </div>
+      </div>
+    </div>
+    <div class="collapse variousElements" id="contentId2">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque dolores eveniet laboriosam, perspiciatis nobis cum iusto aut, ut doloribus in placeat adipisci, illum optio maiores consequuntur. Nostrum, quis repudiandae.</p>
+        </div>
+      </div>
+    </div>
+    <div class="collapse variousElements" id="contentId3">
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque dolores eveniet laboriosam, perspiciatis nobis cum iusto aut, ut doloribus in placeat adipisci, illum optio maiores consequuntur. Nostrum, quis repudiandae.</p>
+        </div>
+      </div>
+    </div> -->
 
-<div id="accordianId" role="tablist" aria-multiselectable="true">
-  <div class="card">
-    <div class="card-header" role="tab" id="section1HeaderId">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
-          Section 1
-        </a>
-      </h5>
-    </div>
-    <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
-      <div class="card-body">
-        Section 1 content
+    <!-- Obs.: si quieres que el acordeon no se cierre quitar data-parent="#miAcordeon" de los hijos-->
+    <!-- Obs.: si quieres que el uno por defecto este abierto agregar agregar clase show a uno de los hijos class="collapse show"-->
+    
+    <div id="miAcordeon">
+      <div class="card">
+        <div class="card-header">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#contenido1">Primer contenido</button>
+        </div>
+      </div>
+      <div id="contenido1" class="collapse show" data-parent="#miAcordeon">
+        <div class="card-body">
+          Lorem, ipsum.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#contenido2">Segundo contenido</button>
+        </div>
+      </div>
+      <div id="contenido2" class="collapse" data-parent="#miAcordeon">
+        <div class="card-body">
+          Lorem, ipsum.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#contenido3">Tercer contenido</button>
+        </div>
+      </div>
+      <div id="contenido3" class="collapse" data-parent="#miAcordeon">
+        <div class="card-body">
+          Lorem, ipsum.
+        </div>
       </div>
     </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="section2HeaderId">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
-          Section 2
-        </a>
-      </h5>
-    </div>
-    <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
-      <div class="card-body">
-        Section 2 content
-      </div>
-    </div>
-  </div>
-</div>
+<!-- Fin Collapse -->
 
 
 
