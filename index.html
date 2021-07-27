@@ -932,7 +932,7 @@
     <!-- Obs.: si quieres que el acordeon no se cierre quitar data-parent="#miAcordeon" de los hijos-->
     <!-- Obs.: si quieres que el uno por defecto este abierto agregar agregar clase show a uno de los hijos class="collapse show"-->
     
-    <div id="miAcordeon">
+    <!-- <div id="miAcordeon">
       <div class="card">
         <div class="card-header">
           <button class="btn btn-link" data-toggle="collapse" data-target="#contenido1">Primer contenido</button>
@@ -963,8 +963,210 @@
           Lorem, ipsum.
         </div>
       </div>
-    </div>
+    </div> -->
 <!-- Fin Collapse -->
+<!-- Dropdown -->
+    <!-- <h1>Dropdown</h1>
+    <hr>
+
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menú desplegable
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item disabled" href="#">Disabled action</a>
+        <h6 class="dropdown-header">Section header</h6>
+        <a class="dropdown-item" href="#">Action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">After divider action</a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="dropup">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menú desplegable
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Action2</a>
+          <a class="dropdown-item" href="#">Action3</a>
+          <a class="dropdown-item" href="#">Action4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <hr>
+      <div class="dropleft">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menú desplegable
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Action2</a>
+          <a class="dropdown-item" href="#">Action3</a>
+          <a class="dropdown-item" href="#">Action4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <hr>
+      <div class="dropright">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menú desplegable
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Action2</a>
+          <a class="dropdown-item" href="#">Action3</a>
+          <a class="dropdown-item" href="#">Action4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h1>Dropdown</h1>
+      <hr>
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger">Button</button>
+        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action1</a>
+          <a class="dropdown-item" href="#">Action2</a>
+          <a class="dropdown-item" href="#">Action3</a>
+          <a class="dropdown-item" href="#">Action4</a>
+        </div>
+      </div>
+    </div> -->
+<!-- Fin Dropdown -->
+<!-- Formularios -->
+    <h1>Formularios</h1>
+    <hr>
+    <form action="">
+      <div class="form-group">
+        <label for="">Nombre</label>
+        <input type="text" name="" id="" class="form-control form-control-lg" placeholder="" aria-describedby="Nombre">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" id="" class="form-control-plaintext form-control-lg" placeholder="Solo lectura" readonly>
+      </div>
+      <div class="form-group">
+        <label for="">Apellido</label>
+        <input type="text" name="" id="" class="form-control form-control-sm" placeholder="" aria-describedby="Apellido">
+      </div>
+      <div class="form-group">
+        <label for="">Correo</label>
+        <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="Correo">
+        <small class="form-text text-muted">Indica tu correo electronico</small>
+      </div>
+      <div class="form-group">
+        <label for="seleccion">Selecciona una opcion</label>
+        <select class="form-control" name="seleccion" id="seleccion">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea class="form-control" name="mensaje" id="mensaje"></textarea>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="aceptoTerminos" id="aceptoTerminos" value="checkedValue" checked>
+          Acepto los terminos y condiciones
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="edad" id="edad" value="checkedValue">
+          Tengo 18 años
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="edad" id="edad17" value="checkedValue">
+          Tengo 17 años
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary mt-5">Enviar</button>
+    </form>
+    <form class="form-inline">
+      <label class="sr-only">Nombre</label>
+      <input type="text" name="" id="" class="form-control mr-2" placeholder="Nombre" aria-describedby="helpId">
+      
+      <label class="sr-only">Correo</label>
+      <input type="text" name="" id="" class="form-control mr-2" placeholder="Correo" aria-describedby="helpId">
+    
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+    <form>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">@</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Usuario">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Correo">
+          <div class="input-group-append">
+            <span class="input-group-text">@correo.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">$</span>
+          </div>
+          <input type="text" class="form-control" placeholder="Correo">
+          <div class="input-group-append">
+            <span class="input-group-text">,00</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Area de Texto</span>
+          </div>
+          <textarea class="form-control" placeholder="Usuario"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" name="" id="">
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="Usuario">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="radio" name="" id="">
+            </div>
+          </div>
+          <input type="text" class="form-control" placeholder="Usuario">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <button type="button" class="btn btn-outline-secondary">Boton</button>
+          </div>
+          <input type="text" class="form-control" placeholder="Usuario">
+        </div>
+      </div>
+    </form>
+<!-- Fin Formularios -->
 
 
 
