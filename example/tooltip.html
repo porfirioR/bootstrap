@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <h1>Tooltips</h1>
+
+        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Texto de ayuda">
+          Tooltip
+        </button>
+        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" data-html="true" title="<strong>Help</strong>">
+          Second Button
+        </button>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(function() {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+</body>
+
+</html>

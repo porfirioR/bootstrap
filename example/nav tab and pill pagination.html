@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <h1>Navs</h1>
+        <hr>
+        <nav class="nav">
+          <a class="nav-link active" href="#">Inicio</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link disabled" href="#">Disabled link</a>
+        </nav>
+        <hr>
+        <nav class="nav flex-column">
+          <a href="#" class="nav-link">Inicio</a>
+          <a href="#" class="nav-link">Link</a>
+          <a href="#" class="nav-link">Disabled link</a>
+        </nav>
+        
+        <hr>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled link</a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled link</a>
+            </li>
+        </ul>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contacto</a>
+            </li>
+        </ul>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Productos</a>
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">Enlace</a>
+                  <a href="#" class="dropdown-item">Enlace</a>
+                  <a href="#" class="dropdown-item">Enlace</a>
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">Enlace</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contacto</a>
+            </li>
+        </ul>
+        <hr>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+              <a class="nav-link active" href="#inicio" data-toggle="tab">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#nosotros" data-toggle="tab">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#productos" data-toggle="tab">Productos</a>
+          </li>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contacto" data-toggle="tab">Contacto</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#blog" data-toggle="tab">Blog</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="inicio">
+            <h2>Inicio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisiue quod saepe debitis aliquid ipsam doloremque dolor quasi, in earum quam!</p>
+          </div>
+          <div class="tab-pane fade" id="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quod saepe debitis aliquid ipsam dolor quasi, in earum quam!</p>
+          </div>
+          <div class="tab-pane fade" id="productos">
+            <h2>Productos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quod saepe debitis aliquid ipsam doloremque dolor quasi, in earum quam!</p>
+          </div>
+          <div class="tab-pane fade" id="contacto">
+            <h2>Contacto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisiciniquid ipsam doloremque dolor quasi, in earum quam!</p>
+          </div>
+          <div class="tab-pane fade" id="blog">
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atqquid ipsam doloremque dolor quasi, in earum quam!</p>
+          </div>
+        </div>
+
+        <hr>
+        <h1>Navbar</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Mi marca</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#miMenu" aria-controls="miMenu"
+              aria-expanded="false" aria-label="Mi Marca">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="miMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Nosotros</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Item</a>
+                  <a class="dropdown-item" href="#">Item</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#">Mi marca</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#miMenu" aria-controls="miMenu"
+              aria-expanded="false" aria-label="Mi Marca">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="miMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre Nosotros</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Item</a>
+                  <a class="dropdown-item" href="#">Item</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+        <h1>Paginacion</h1>
+
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">&larr;</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#" aria-label="Next">&rarr;</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Page navigation">
+          <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">&larr;</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#" aria-label="Next">&rarr;</a></li>
+          </ul>
+        </nav>
+
+        <nav aria-label="Page navigation">
+          <ul class="pagination pagination-sm justify-content-end">
+            <li class="page-item disabled">
+              <a class="page-link" href="#">&larr;</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#" aria-label="Next">&rarr;</a></li>
+          </ul>
+        </nav>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

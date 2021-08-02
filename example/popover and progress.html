@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <h1>popover</h1>
+        <button type="button" class="btn btn-secondary" data-toggle="popover" data-placement="bottom" title="Titulo popopver" data-content="Texto a mostrar">Mostrar popover</button>
+
+
+
+        <h1>Progress</h1>
+        <div class="progress mt-4">
+            <div class="progress-bar" role="progressbar"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar w-25 bg-success"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar w-50 bg-danger"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar w-75 bg-warning"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar w-100 bg-info"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+        <h1>Progress</h1>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped" role="progressbar"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped w-25 bg-success"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped w-50 bg-danger"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped w-75 bg-warning"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped w-100 bg-info"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <h1>Progress multiple</h1>
+        <div class="progress mt-4">
+          <div class="progress-bar progress-bar-striped w-25 bg-success">25</div>
+          <div class="progress-bar progress-bar-striped w-50 bg-danger">50</div>
+          <div class="progress-bar progress-bar-striped w-75 bg-warning">75</div>
+          <div class="progress-bar progress-bar-striped w-100 bg-info">100</div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <h1>Progress</h1>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped progress-bar-animated w-25 bg-success"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped progress-bar-animated w-50 bg-danger"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped progress-bar-animated w-75 bg-warning"></div>
+        </div>
+        <div class="progress mt-4">
+            <div class="progress-bar progress-bar-striped progress-bar-animated w-100 bg-info"></div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(function() {
+      $('[data-toggle="popover"]').popover()
+    });
+  </script>
+
+</body>
+
+</html>
