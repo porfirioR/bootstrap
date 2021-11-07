@@ -4,13 +4,18 @@ $dark: #1a1a1a;
 $border-color: #eee;
 @import '../bootstrap/scss/bootstrap.scss';
 
+@font-face {
+    font-family: 'MochiyPopPOne-Regular';
+    src: url('../webfonts/MochiyPopPOne-Regular.ttf');
+}
+
 body {
     font-family: 'Popping', sans-serif;
     font-weight: 300;
 }
 
 .website-title {
-    font-family: 'Shadows Into Light', sans-serif;
+    font-family: 'MochiyPopPOne-Regular';
     font-size: 50px;
 }
 
